@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 body {
     max-width: 1400px;
     margin: auto;
@@ -8,23 +10,17 @@ body {
 header {
     background-image: url(images/header.jpg);
     width: 100%;
-    height:auto;
+    height: auto;
     /*largeur du body*/
     margin: auto;
     /*la hauteur se met automatiquement*/
     background-size: 100%;
     /*l'image de fond recouvre le body(cover)*/
-    position:fixed;
-    top:0;
-    left:0;
+
 }
 
 .top-header {
     background-color: #e2f7ff;
-    display: flex;
-    justify-content: space-around;
-    margin-left: 70px;
-    margin-right: 70px;
     text-decoration: none;
 }
 
