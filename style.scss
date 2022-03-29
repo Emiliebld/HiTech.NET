@@ -1,0 +1,50 @@
+body {
+    max-width: 1400px;
+    margin: auto;
+    background-color: #eee;
+    /*blanc cassé*/
+}
+
+header {
+    background-image: url(images/header.jpg);
+    width: 100%;
+    height:auto;
+    /*largeur du body*/
+    margin: auto;
+    /*la hauteur se met automatiquement*/
+    background-size: 100%;
+    /*l'image de fond recouvre le body(cover)*/
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+.top-header {
+    background-color: #e2f7ff;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-decoration: none;
+}
+
+.produit {
+    background-color: #5DADE2;
+}
+
+
+.middle-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 47px;
+}
+
+.end-header {
+    background-color: #e2f7ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 53px;
+}

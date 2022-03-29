@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body {
+  max-width: 1400px;
+  margin: auto;
+  background-color: #eee;
+  /*blanc cassé*/ }
+
+header {
+  height: 250px;
+  background-image: url(images/header.jpg);
+  background-size: 100%;
+  border: 1px solid black; }
+
+.top-header {
+  background-color: #e2f7ff;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 70px;
+  margin-right: 70px;
+  text-decoration: none; }
+
+.produit {
+  background-color: #5DADE2; }
+
+.middle-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 47px; }
+
+.end-header {
+  background-color: #e2f7ff;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 47px; }
+
+/*# sourceMappingURL=style.css.map */
